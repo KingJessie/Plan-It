@@ -1,6 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+
+
+:root {
+  /* palette */
+
+  --white:    #F0F0F4;
+  --light:    rgb(225, 207, 207);
+  --beige:    rgb(128, 115, 116);
+  --medium:   rgb(95, 77, 81);
+  --dark:     rgb(38, 12, 12);
+  --accent:   rgb(161, 128, 131);
+  --accent-rgb: 161, 128, 131;
+  --dark-rgb:   38, 12, 12;}
+
+
+
+
 body {
   background-color: #DED6D1;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   line-height: 1;
 }
@@ -16,7 +35,7 @@ textarea {
 
 .jumbotron {
   text-align: center;
-  background-color: white;
+  background-color: #797d81;
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
@@ -69,4 +88,16 @@ textarea {
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+}
+
+h1.display-3{
+  color: white;
+  text-shadow: 0 0 0.2em rgb(109, 32, 252);
+  -webkit-text-stroke-color: rgb(87, 84, 84);
+  -webkit-text-stroke-width: 0.01em;
+  z-index: 2;
+}
+
+p.lead{
+  color: white;
 }
