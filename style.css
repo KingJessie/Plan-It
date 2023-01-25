@@ -54,17 +54,17 @@ textarea {
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: #cdcaca;
   color: white;
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #a9def9;
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #d0f4de;
   color: white;
 }
 
@@ -75,6 +75,7 @@ textarea {
   background-color: rgba(255, 186, 195, 0.71);
   color: white;
 }
+
 
 .saveBtn i:hover {
   font-size: 20px;
@@ -96,6 +97,10 @@ p.lead{
   font-size: 25px;
 }
 
+p#currentDay{
+  color: #ffffff;
+  
+}
 
 
 
