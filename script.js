@@ -15,8 +15,8 @@ saveBtn.on("click", function () {
   var savedText = $(this).parent().siblings(".textArea").val();
 
   localStorage.setItem(hour, savedText);
+  console.log(savedText, hour)
 });
-
 
 
 // Function for time block to change color when hour is in present, past or future
