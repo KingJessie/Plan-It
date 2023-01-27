@@ -33,4 +33,4 @@ Link: https://kingjessie.github.io/Plan-It/
 <br>
 
 ## ScreenShot
-![index.html screenshot](./images/Screenshot%202023-01-25%20at%2022.45.24.png)
+![index.html screenshot](./images/Screenshot%202023-01-27%20at%2012.45.32.png)
